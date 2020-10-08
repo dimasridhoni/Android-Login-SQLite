@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Dimas Ridhoni on 10/9/20 12:12 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 10/9/20 12:12 AM
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <ListView
+        android:id="@+id/membercard_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

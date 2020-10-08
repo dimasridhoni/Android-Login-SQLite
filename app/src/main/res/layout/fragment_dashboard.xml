@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Dimas Ridhoni on 10/6/20 10:51 PM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 10/6/20 10:51 PM
+  ~  */
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dimasridhoni.javatestk24.ui.dashboard.DashboardFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include android:id="@+id/carousel"
+            android:layout_below="@id/relativeLayout"
+            layout="@layout/content_carousel"
+            android:visibility="visible" />
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:id="@+id/judul"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/judul"
+            android:textSize="32sp"
+            android:layout_below="@id/carousel"/>
+
+
+        <TextView
+            style="@style/TextContent"
+            android:id="@+id/isi"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/isi"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/judul"
+            android:justificationMode="inter_word"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

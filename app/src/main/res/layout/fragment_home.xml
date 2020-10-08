@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Dimas Ridhoni on 10/6/20 10:51 PM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 10/6/20 10:51 PM
+  ~  */
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.dimasridhoni.javatestk24.ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bannerk24" />
+    </RelativeLayout>
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+        android:columnCount="1">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="10dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/layoutViewMember"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnViewMember"
+                    android:contentDescription="View Data Member"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:padding="5dp"
+                    android:src="@drawable/card_member_green"
+                    android:background="@drawable/rounded_corners"/>
+
+                <TextView
+                    android:id="@+id/tvViewMember"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/layoutInputMember"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnInputMember"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="Outlet"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:padding="5dp"
+                    android:src="@drawable/card_member_add_green"
+                    android:background="@drawable/rounded_corners"/>
+
+                <TextView
+                    android:id="@+id/tvInputMember"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </GridLayout>
+
+
+
+</RelativeLayout>

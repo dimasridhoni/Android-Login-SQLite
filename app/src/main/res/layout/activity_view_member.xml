@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Dimas Ridhoni on 10/7/20 11:16 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 10/7/20 11:16 AM
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <ListView
+        android:id="@+id/membercard_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/buttonTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="TAMBAH DATA BARU"
+        android:textAllCaps="false"
+        android:textColor="#008000"
+        android:textSize="17sp"/>
+
+</LinearLayout>

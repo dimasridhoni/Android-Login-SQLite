@@ -1,0 +1,22 @@
+<!--
+  ~ /**
+  ~  * Created by Dimas Ridhoni on 10/6/20 9:34 PM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 10/6/20 9:23 PM
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">Java Test K24</string>
+    <string name="title_view">View Data Membercard</string>
+    <string name="title_input">Input Data Membercard</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">About</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_view_member">View Data Membercard</string>
+    <string name="title_ubah_password">Ubah Password</string>
+
+    <string name="judul">Apotek K-24</string>
+    <string name="isi">Apotek K-24 adalah Jaringan Apotek Waralaba Nasional yang menyediakan kebutuhan obat-obatan dan alat kesehatan. Berada di bawah naungan PT. K-24 Indonesia, saat ini Apotek K-24 telah meraih berbagai penghargaan yang menjadikan apotek ini dipercaya menjadi Apotek Waralaba Terbaik di Indonesia. Untuk memberikan pelayanan terbaik, Apotek K24 memberikan 5 Jaminan Pasti kepada pasien, yaitu Komplit 24 Jam, Komplit 24 Jam, Pagi Siang Malam Libur Harga Sama, Hanya Menjual Obat Asli, Layanan Konsultasi Apoteker Gratis, dan tersedia Layanan Antar.</string>
+</resources>

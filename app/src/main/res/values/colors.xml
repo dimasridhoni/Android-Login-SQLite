@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Dimas Ridhoni on 10/6/20 9:34 PM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 10/6/20 9:23 PM
+  ~  */
+  -->
+
+<resources>
+    <color name="colorPrimary">#008000</color>
+    <color name="colorPrimaryDark">#4B5320</color>
+    <color name="colorAccent">#00FF00</color>
+
+    <color name="gray">#BFBFBF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#313131</color>
+
+    <color name="colorBlue">#3F51B5</color>
+    <color name="colorBlueDark">#303F9F</color>
+    <color name="colorYellow">#FFDE03</color>
+    <color name="colorRed">#D50000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPerak">#DDDDDD</color>
+    <color name="colorHijauArmy">#4B5320</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <color name="proceed_disable">#DEDEDE</color>
+    <color name="proceed_enable">#F00</color>
+
+    <color name="light_grey_semi_transparent">#80313435</color>
+</resources>
